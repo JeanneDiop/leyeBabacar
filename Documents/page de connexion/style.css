@@ -1,0 +1,80 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+}
+form{
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 60px 60px 60px 110px;
+    border-radius: 10px;
+    min-width: 100px;
+}
+form h1{
+    color: blue;
+    text-align: left;
+}
+form p{
+    text-align: left;
+}
+form inputs{
+    display: flex;
+    justify-content: center;
+}
+input[type="text"], input[type="password"]{
+    line-height: 48px;
+    justify-content: center;
+    width: 348px;
+    
+   
+    border-color: rgb(228, 227, 227);
+}   
+.le{
+    justify-content: center;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    text-decoration: none;
+    text-align: center;
+
+}
+.le > button{
+    background: #1877f2;
+    border: none;
+    color: white;
+    font-size: 20px;
+   
+  
+}
+.la{
+    background-color: #42b72a;
+    justify-content: center;
+    border: none;
+    border-radius: 6px;
+    
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    text-decoration: none;
+    text-align: center;
+
+}
+.la > button{
+    background-color: #42b72a;
+    border: none;
+    color: white;
+    font-size: 20px;
+    outline: none;
+}
+.passe_oublié{
+    text-align: center;
+}
+.v1{
+    margin-left: 50px;
+    
+}
